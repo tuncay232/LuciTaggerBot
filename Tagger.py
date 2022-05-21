@@ -29,8 +29,8 @@ async def start(event):
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/nevarevladim')
-                      [ Düğme . url ( 'Resmi Kanal📣' , '' )https://t.me/nevarevladim
-		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , ''        https : //nevarevladim )
+                      [ Düğme . url ( 'Resmi Kanal📣' , 'https://t.me/nevarevladim' )
+		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' ,''https://nevarevladim )
                     ),
                     link_preview=False
                    )
@@ -42,7 +42,7 @@ zaman  uyumsuz   def   yardım ( olay ):https://t.me/nevarevladim
                       [ Düğme . url ( 'Beni Gruba Ekle➕' , 'https://t.me/lucitaggerbot?startgroup=a' )],
                       [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim )],
                       [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/nevarevladim' )
-		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , ''    
+		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , 'https://t.me/nevarevladim'    
                     link_preview=False
                    )
 	
@@ -283,5 +283,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> Bot çalıyor merak etme 🚀 @lucimarka bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @nevarevladım  bilgi alabilirsin <<")
 client.run_until_disconnected()
