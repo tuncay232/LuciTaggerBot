@@ -29,8 +29,8 @@ async def start(event):
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/LuciSup')],
-                      [Button.url('Resmi Kanal📣', 'https://t.me/LuciBots')],
-		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , '' https : //  t . me  /  nevarevladim )],
+                      [ Düğme . url ( 'Resmi Kanal📣' , '' )],
+		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , ''    https : //     t . me     /     nevarevladim )],
                     ),
                     link_preview=False
                    )
@@ -42,7 +42,7 @@ async def help(event):
                       [Button.url('Beni Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
                       [Button.url('Support👨‍💻', 'https://t.me/LuciSup')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/LuciBots')
-		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , 'https://t.me/LuciMarka' )],
+		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , '' https://t.me/nevarevladim  https : //   t . me   /   nevarevladim )],
                     ),
                     link_preview=False
                    )
