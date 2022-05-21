@@ -1,5 +1,5 @@
-import random, os, logging, asyncio
-from telethon import Button
+  sistem  içi aktarma , sistem  sistemi , günlüğe  kaydetme , asyncio
+ telefondan  içe  aktarma Düğmesi
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.types import ChannelParticipantsAdmins
@@ -30,7 +30,7 @@ async def start(event):
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/LuciSup')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/LuciBots')],
-		      [Button.url('Developer👨🏻‍💻', 'https://t.me/LuciMarka')],
+		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , '' https : //  t . me  /  nevarevladim )],
                     ),
                     link_preview=False
                    )
