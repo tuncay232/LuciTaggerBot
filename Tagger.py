@@ -40,11 +40,10 @@ zaman  uyumsuz   def   yardım ( olay ):https://t.me/nevarevladim
   await event.reply(helptext,
                     buttons=(
                       [ Düğme . url ( 'Beni Gruba Ekle➕' , 'https://t.me/lucitaggerbot?startgroup=a' )],
-                      [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim )
+                      [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim')
                       [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/nevarevladim')
 		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , 'https://t.me/nevarevladim'    
-                    link_preview=False
-                   )
+                    link_preview)
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 zaman uyumsuz  def  yardım ( olay ):
