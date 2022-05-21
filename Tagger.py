@@ -13,7 +13,7 @@ LOGGER = logging.getLogger(__name__)
 api_id = int(os.environ.get("APP_ID"))
 api_hash = os.environ.get("API_HASH")
 bot_token = os.environ.get("TOKEN")
-client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
+zeka   =   TelegramClient ( 'client' , api_id , api_hash ). başlatma ( bot_token = bot_token )  https://t.me/nevarevladim
 
 
 anlik_calisan = []
@@ -30,26 +30,26 @@ async def start(event):
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/LuciSup')],
                       [ Düğme . url ( 'Resmi Kanal📣' , '' )],
-		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , ''    https : //     t . me     /     nevarevladim )],
+		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , ''        https : //         t . me         /         nevarevladim )], https : // t . ben / nevarevladim
                     ),
                     link_preview=False
                    )
-@client.on(events.NewMessage(pattern="^/help$"))
-async def help(event):
-  helptext = "**🌀 LuciTaggerBot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
+@istemci . on ( olaylar . NewMessage ( model = "^/help$" ) )
+zaman  uyumsuz   def   yardım ( olay ):https://t.me/nevarevladim
+  helptext   =   "**🌀 LuciTaggerBot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n **tektag sebeb - Üyeleri Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu çalıştırmaır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
-                      [Button.url('Support👨‍💻', 'https://t.me/LuciSup')],
-                      [Button.url('Resmi Kanal🔖', 'https://t.me/LuciBots')
-		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , '' https://t.me/nevarevladim  https : //   t . me   /   nevarevladim )],
+                      [ Düğme . url ( 'Beni Gruba Ekle➕' , 'https://t.me/lucitaggerbot?startgroup=a' )],
+                      [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim )],
+                      [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/Luci' )
+		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , ''        https : //       t . me       /       nevarevladim         https : //          t . me          /  nevarevladi )],
                     ),
                     link_preview=False
                    )
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
-async def help(event):
-  helptext = "**Çok özellikleri Etiket Botu Bulmaya Çalışan Grub Sahibleri @LuciTaggerBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri etiketleme\n📌\n\n Böyle Çok özellikli @LuciTaggerBot 'u grubunuza yönetici olarak ekleyip rahatlıkla üyelir , etiket ata bilirsiz **"
+zaman uyumsuz  def  yardım ( olay ):
+  helptext  =  "**Çok özelliği Etiket Botu Bulmaya Çalışan Grub Sahibleri @LuciTaggerBot Size Göre:\n\n📌 5-li etiket\n📌 Emoji etiket\n📌 Tekli Etiket\n📌 Yalnız Yöneticileri\n📌\n\n ÇokBo @LuciTagger Böyle ekibir'u yönetici olarak uygun bir paket üyeli , etiket bilirsiz **"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Botu Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
