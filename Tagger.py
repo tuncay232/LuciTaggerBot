@@ -28,9 +28,9 @@ async def start(event):
                     buttons=(
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
-                      [Button.url('Support🛠', 'https://t.me/LuciSup')],
-                      [ Düğme . url ( 'Resmi Kanal📣' , '' )],
-		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , ''        https : //         t . me         /         nevarevladim )], https : // t . ben / nevarevladim
+                      [Button.url('Support🛠', 'https://t.me/nevarevladim')
+                      [ Düğme . url ( 'Resmi Kanal📣' , '' )https://t.me/nevarevladim
+		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' , ''        https : //nevarevladim )
                     ),
                     link_preview=False
                    )
@@ -41,9 +41,8 @@ zaman  uyumsuz   def   yardım ( olay ):https://t.me/nevarevladim
                     buttons=(
                       [ Düğme . url ( 'Beni Gruba Ekle➕' , 'https://t.me/lucitaggerbot?startgroup=a' )],
                       [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim )],
-                      [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/Luci' )
-		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , ''        https : //       t . me       /       nevarevladim         https : //          t . me          /  nevarevladi )],
-                    ),
+                      [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/nevarevladim' )
+		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , ''    
                     link_preview=False
                    )
 	
