@@ -27,10 +27,10 @@ async def start(event):
   await event.reply("**🌀LuciTaggerBot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')
                       [Button.url('Support🛠', 'https://t.me/nevarevladim')
-                      [ Düğme . url ( 'Resmi Kanal📣' , 'https://t.me/nevarevladim' )
-		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' ,''https://nevarevladim )
+                      [ Düğme . url ( 'Resmi Kanal📣' , 'https://t.me/nevarevladim')
+		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' ,'https://nevarevladim')
                     ),
                     link_preview=False
                    )
@@ -40,8 +40,8 @@ zaman  uyumsuz   def   yardım ( olay ):https://t.me/nevarevladim
   await event.reply(helptext,
                     buttons=(
                       [ Düğme . url ( 'Beni Gruba Ekle➕' , 'https://t.me/lucitaggerbot?startgroup=a' )],
-                      [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim )],
-                      [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/nevarevladim' )
+                      [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim )
+                      [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/nevarevladim')
 		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , 'https://t.me/nevarevladim'    
                     link_preview=False
                    )
