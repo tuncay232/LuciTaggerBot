@@ -29,9 +29,8 @@ async def start(event):
                    
 		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')
                       [Button.url('Support🛠', 'https://t.me/nevarevladim')
-                      [ Düğme . url ( 'Resmi Kanal📣' , 'https://t.me/nevarevladim)
-		      [ Düğme . url ( 'Geliştirici👨🏻‍💻' ,'https://nevarevladim)
-                    ),
+                      
+
                     link_preview=False
                    )
 @istemci . on ( olaylar . NewMessage ( model = "^/help$" ) )
@@ -40,11 +39,7 @@ zaman  uyumsuz   def   yardım ( olay ):https://t.me/nevarevladim
   await event.reply(helptext,
                     buttons=(
                       [ Düğme . url ( 'Beni Gruba Ekle➕' , 'https://t.me/lucitaggerbot?startgroup=a' )],
-                      [ Düğme . url ( 'Destek👨‍💻' , 'https://t.me/nevarevladim )
-                      [ Düğme . url ( 'Resmi Kanal🔖' , 'https://t.me/nevarevladim')
-		      [ Düğme . url ( 'Geliştirici🧑‍🔧' , 'https://t.me/nevarevladim')0    
-                    link_preview=False
-                   )
+                                   
 	
 @client.on(events.NewMessage(pattern="^/reklam$"))
 zaman uyumsuz  def  yardım ( olay ):
@@ -52,9 +47,9 @@ zaman uyumsuz  def  yardım ( olay ):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('Botu Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
-                    ),
+                 
                     link_preview=False
-                   )
+                   
 	
 	
 
